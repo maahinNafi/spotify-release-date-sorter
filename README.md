@@ -29,8 +29,7 @@ cd spotify-playlist-sorter
 
 - Make sure you have pip installed, then install the required packages:
 
-``` pip install spotipy python-dotenv
-```
+pip install spotipy python-dotenv
 
 ### 3. Set Up Spotify API Credentials
 
@@ -53,8 +52,7 @@ PLAYLIST_ID=your_playlist_id_to_sort
 
 - Execute the script:
 
-``` python main.py
-```
+python main.py
 
 - The script will create a new playlist with tracks from your specified playlist, sorted by their release dates.
 
