@@ -34,33 +34,7 @@ cd spotify-playlist-sorter
 
 ### 3. Set Up Spotify API Credentials
 
-Log in to the 
-𝑆
-𝑝
-𝑜
-𝑡
-𝑖
-𝑓
-𝑦
-𝐷
-𝑒
-𝑣
-𝑒
-𝑙
-𝑜
-𝑝
-𝑒
-𝑟
-𝐷
-𝑎
-𝑠
-ℎ
-𝑏
-𝑜
-𝑎
-𝑟
-𝑑
-SpotifyDeveloperDashboard(https://developer.spotify.com/dashboard/applications) and create a new application.
+Log in to the SpotifyDeveloperDashboard(https://developer.spotify.com/dashboard/applications) and create a new application.
 Note down your **Client ID** and **Client Secret**.
 Set the **Redirect URI** to http://localhost:8888/callback (or any other valid URI).
 ### 4. Configure Environment Variables
