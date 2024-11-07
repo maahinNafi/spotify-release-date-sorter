@@ -27,11 +27,7 @@ cd spotify-playlist-sorter
 
 ### 2. Install Dependencies
 
-- Make sure you have 
-𝑝
-𝑖
-𝑝
-pip(https://pip.pypa.io/en/stable/) installed, then install the required packages:
+- Make sure you have pip installed, then install the required packages:
 
 ``` pip install spotipy python-dotenv
 ```
