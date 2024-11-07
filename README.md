@@ -29,7 +29,9 @@ cd spotify-playlist-sorter
 
 - Make sure you have pip installed, then install the required packages:
 
+```
 pip install spotipy python-dotenv
+```
 
 ### 3. Set Up Spotify API Credentials
 
@@ -40,7 +42,8 @@ Set the **Redirect URI** to http://localhost:8888/callback (or any other valid U
 
 - Create a .env file in the root of the project directory and add the following variables:
 
-``` CLIENT_ID=your_spotify_client_id
+```
+CLIENT_ID=your_spotify_client_id
 CLIENT_SECRET=your_spotify_client_secret
 MY_URI=http://localhost:8888/callback
 PLAYLIST_ID=your_playlist_id_to_sort
@@ -52,7 +55,9 @@ PLAYLIST_ID=your_playlist_id_to_sort
 
 - Execute the script:
 
+```
 python main.py
+```
 
 - The script will create a new playlist with tracks from your specified playlist, sorted by their release dates.
 
