@@ -27,10 +27,11 @@ def get_playlist(playlist_id):
         track_data = sp.playlist_tracks(playlist_id=playlist_id, offset=offset, limit=100)
         for item in track_data['items']:
             track = item['track']
-            album = track['album']
-            release_date = album['release_date']
-            song_id = track['id']
-            all_release_date[song_id] = release_date
+            if track is not None:
+                album = track['album']
+                release_date = album['release_date']
+                song_id = track['id']
+                all_release_date[song_id] = release_date
         if len(track_data['items']) < 100:
             break
         offset += 100  
